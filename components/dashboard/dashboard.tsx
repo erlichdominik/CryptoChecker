@@ -5,6 +5,7 @@ import DashboardMainTitle from "./dashboard-main/DashboardMainTitle";
 import DashboardMainTrend from "./dashboard-main/DashboardMainTrend";
 import DashboardMainWallet from "./dashboard-main/DashboardMainWallet";
 import DashboardMenuItem from "./dashboard-menu-item/DashboardMenuItem";
+import DashboardMenuItemTitle from "./dashboard-menu-item/DashboardMenuItemTitle";
 import {
   StyledDashboardContainer,
   StyledDashboardMain,
@@ -21,7 +22,7 @@ const Dashboard = () => {
   return (
     <StyledDashboardContainer>
       <StyledDashboardMenu>
-        <DashboardMenuItem name="CryptoChecker" isLogo={true} />
+        <DashboardMenuItemTitle />
         <DashboardMenuItem name="Dashboard" />
         <DashboardMenuItem name="Wallet" />
       </StyledDashboardMenu>
