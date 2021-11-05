@@ -1,7 +1,9 @@
 import { StyledDashboardMenuItem } from "./DashboardMenuItem.styled";
+import Link from "next/link";
 
 interface IDashboardMenuItem {
   name: string;
+  pageName: string;
   isLogo?: boolean;
 }
 
@@ -11,7 +13,9 @@ interface IDashboardMenuItem {
 const DashboardMenuItem = (props: IDashboardMenuItem) => {
   return (
     <StyledDashboardMenuItem isLogo={props.isLogo}>
-      <p>{props.name}</p>
+      <Link href={props.pageName}>
+        <a>{props.name}</a>
+      </Link>
     </StyledDashboardMenuItem>
   );
 };

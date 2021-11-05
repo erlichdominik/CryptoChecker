@@ -16,13 +16,11 @@ export const StyledDashboardContainer = styled.main`
 export const StyledDashboardMenu = styled.section`
   grid-area: dashboard;
   background-color: #fff6f0;
-  padding-top: 30px;
 `;
 
 export const StyledDashboardMain = styled.section`
   grid-area: main;
   background-color: ##f9f9fc;
-  padding-top: 30px;
   display: grid;
   grid-template-columns: 1.5fr 0.5fr;
   grid-template-rows: 0.2fr 0.3fr 1fr 0.7fr;

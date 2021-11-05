@@ -23,8 +23,8 @@ const Dashboard = () => {
     <StyledDashboardContainer>
       <StyledDashboardMenu>
         <DashboardMenuItemTitle />
-        <DashboardMenuItem name="Dashboard" />
-        <DashboardMenuItem name="Wallet" />
+        <DashboardMenuItem name="Dashboard" pageName="dashboard" />
+        <DashboardMenuItem name="Stocks" pageName="stocks" />
       </StyledDashboardMenu>
       <StyledDashboardMain>
         <StyledDashboardMainTitle>
